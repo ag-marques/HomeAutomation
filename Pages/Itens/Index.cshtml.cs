@@ -25,7 +25,7 @@ namespace HomeAutomation.Pages.Itens
         {
             if (_context.Itens != null)
             {
-                Item = await _context.Itens.ToListAsync();
+                Item = await _context.Itens.Take(20).ToListAsync();
             }
         }
     }

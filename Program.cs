@@ -25,6 +25,7 @@ else
     app.UseMigrationsEndPoint();
 }
 
+// Aqui cria o banco de Dados
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

@@ -25,7 +25,7 @@ namespace HomeAutomation.Pages.Budgets
         {
             if (_context.Budgets != null)
             {
-                Budget = await _context.Budgets.ToListAsync();
+                Budget = await _context.Budgets.Take(20).ToListAsync();
             }
         }
     }

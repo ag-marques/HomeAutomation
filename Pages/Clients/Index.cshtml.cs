@@ -25,7 +25,7 @@ namespace HomeAutomation.Pages.Clients
         {
             if (_context.Client != null)
             {
-                Client = await _context.Client.ToListAsync();
+                Client = await _context.Client.Take(20).ToListAsync();
             }
         }
     }

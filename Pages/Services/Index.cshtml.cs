@@ -25,7 +25,7 @@ namespace HomeAutomation.Pages.Services
         {
             if (_context.Services != null)
             {
-                Service = await _context.Services.ToListAsync();
+                Service = await _context.Services.Take(20).ToListAsync();
             }
         }
     }

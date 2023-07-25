@@ -28,7 +28,8 @@ namespace HomeAutomation.Pages.Budgets
                 return NotFound();
             }
 
-            var budget = await _context.Budgets.FirstOrDefaultAsync(m => m.Id == id);
+            var budget = await _context.Budgets.Include(b => b.Clients).AsNoTracking().FirstOrDefaultAsync(m => m.Id == id);
+            
             if (budget == null)
             {
                 return NotFound();
