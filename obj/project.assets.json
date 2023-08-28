@@ -11695,26 +11695,25 @@
     ]
   },
   "packageFolders": {
-    "/home/anderson/.nuget/packages/": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/anderson/Desenv/HomeAutomation/HomeAutomation.csproj",
+      "projectUniqueName": "/workspaces/HomeAutomation/HomeAutomation.csproj",
       "projectName": "HomeAutomation",
-      "projectPath": "/home/anderson/Desenv/HomeAutomation/HomeAutomation.csproj",
-      "packagesPath": "/home/anderson/.nuget/packages/",
-      "outputPath": "/home/anderson/Desenv/HomeAutomation/obj/",
+      "projectPath": "/workspaces/HomeAutomation/HomeAutomation.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/HomeAutomation/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/anderson/.nuget/NuGet/NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/home/anderson/nuget": {},
-        "/usr/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/dotnet/7.0.306/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11781,7 +11780,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
