@@ -64,26 +64,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/anderson/Desenv/HomeAutomation/Pages/Itens/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbnMvQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/anderson/Desenv/HomeAutomation/Pages/Itens/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbnMvRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/anderson/Desenv/HomeAutomation/Pages/Itens/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbnMvRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/anderson/Desenv/HomeAutomation/Pages/Itens/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbnMvRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/anderson/Desenv/HomeAutomation/Pages/Itens/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbnMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/home/anderson/Desenv/HomeAutomation/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -24027,11 +24027,6 @@
   "RootNamespace": "HomeAutomation",
   "Documents": [
     {
-      "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Itens/Index.cshtml",
-      "TargetPath": "Pages\\Itens\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Services/Details.cshtml",
       "TargetPath": "Pages\\Services\\Details.cshtml",
       "FileKind": "mvc"
@@ -24092,11 +24087,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Itens/Details.cshtml",
-      "TargetPath": "Pages\\Itens\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -24117,23 +24107,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Itens/Create.cshtml",
-      "TargetPath": "Pages\\Itens\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Clients/Index.cshtml",
       "TargetPath": "Pages\\Clients\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Itens/Delete.cshtml",
-      "TargetPath": "Pages\\Itens\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/anderson/Desenv/HomeAutomation/Pages/Itens/Edit.cshtml",
-      "TargetPath": "Pages\\Itens\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
