@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeAutomation.Data;
 using HomeAutomation.Models;
 
-namespace HomeAutomation.Pages.Budgets
+namespace HomeAutomation.Budgets
 {
     public class EditModel : PageModel
     {
@@ -36,6 +36,7 @@ namespace HomeAutomation.Pages.Budgets
                 return NotFound();
             }
             Budget = budget;
+           ViewData["ClientId"] = new SelectList(_context.Client, "Id", "Id");
             return Page();
         }
 

@@ -1,5 +1,5 @@
 @page
-@model HomeAutomation.Pages.Budgets.DetailsModel
+@model HomeAutomation.Budgets.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
@@ -24,27 +24,11 @@
             @Html.DisplayFor(model => model.Budget.SumPrice)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Budget.Clients)
+            @Html.DisplayNameFor(model => model.Budget.client)
         </dt>
         <dd class="col-sm-10">
-            <table class="table">
-                <tr>
-                    <th>Name</th>
-                    <th>Whatsapp</th>
-                </tr>
-                @foreach (var item in Model.Budget.Clients)
-                {
-                    <tr>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Name)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Whatsapp)
-                        </td>
-                    </tr>
-                }
-            </table>
-        </dd>        
+            @Html.DisplayFor(model => model.Budget.client.Id)
+        </dd>
     </dl>
 </div>
 <div>

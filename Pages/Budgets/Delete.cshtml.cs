@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeAutomation.Data;
 using HomeAutomation.Models;
 
-namespace HomeAutomation.Pages.Budgets
+namespace HomeAutomation.Budgets
 {
     public class DeleteModel : PageModel
     {

@@ -1,5 +1,5 @@
 @page
-@model HomeAutomation.Pages.Budgets.IndexModel
+@model HomeAutomation.Budgets.IndexModel
 
 @{
     ViewData["Title"] = "Index";
@@ -14,13 +14,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Budget[0].Id)
-            </th>            
-            <th>
                 @Html.DisplayNameFor(model => model.Budget[0].RegisterBudget)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Budget[0].SumPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Budget[0].client)
             </th>
             <th></th>
         </tr>
@@ -29,13 +29,13 @@
 @foreach (var item in Model.Budget) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>            
-            <td>
                 @Html.DisplayFor(modelItem => item.RegisterBudget)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.SumPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.client.Id)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

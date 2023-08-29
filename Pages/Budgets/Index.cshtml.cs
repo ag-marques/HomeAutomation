@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeAutomation.Data;
 using HomeAutomation.Models;
 
-namespace HomeAutomation.Pages.Budgets
+namespace HomeAutomation.Budgets
 {
     public class IndexModel : PageModel
     {
@@ -25,7 +25,8 @@ namespace HomeAutomation.Pages.Budgets
         {
             if (_context.Budgets != null)
             {
-                Budget = await _context.Budgets.Take(20).ToListAsync();
+                Budget = await _context.Budgets
+                .Include(b => b.client).ToListAsync();
             }
         }
     }

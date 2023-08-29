@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using HomeAutomation.Data;
 using HomeAutomation.Models;
 
-namespace HomeAutomation.Pages.Budgets
+namespace HomeAutomation.Budgets
 {
     public class CreateModel : PageModel
     {
@@ -21,6 +21,7 @@ namespace HomeAutomation.Pages.Budgets
 
         public IActionResult OnGet()
         {
+        ViewData["ClientId"] = new SelectList(_context.Client, "Id", "Id");
             return Page();
         }
 

@@ -3,3 +3,9 @@ Sistema desenvolvido em CSharp Razor Pages utilizando método scaffold
 
 # Reference
 https://learn.microsoft.com/pt-br/aspnet/core/data/ef-rp/intro?view=aspnetcore-6.0&tabs=visual-studio-code
+
+# Migrations
+
+dotnet ef migrations add yourMigrationName
+
+dotnet ef database update
